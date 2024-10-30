@@ -18,7 +18,7 @@ app_mode = st.sidebar.selectbox("Select Page", ["Home", "About", "Disease Recogn
 # Main Page
 if app_mode == "Home":
     st.header("PLANT DISEASE RECOGNITION SYSTEM")
-    image_path = r"C:\Users\WINDOWS 10\OneDrive\Documents\Plant Diseases Dataset(Project)\New Plant Diseases Dataset\crop home page.jpg"
+    image_path = r"crop home page.jpg"
     st.image(image_path, use_column_width=True)
     st.markdown("""
     Welcome to the Plant Disease Recognition System! 🌿🔍
