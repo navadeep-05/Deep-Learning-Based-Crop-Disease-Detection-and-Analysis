@@ -82,8 +82,8 @@ To run this project, download the required datasets from the links below:
 ### Setup Instructions
 1. **Download the Datasets:** Click the links above to access and download the `train`, `test`, and `valid` folders.
 2. **Organize the Folders**: After downloading, structure the dataset folders as follows within the repository:
-   Deep-Learning-Based-Crop-Disease-Detection-and-Analysis/ ├── train/ ├── 
-   test/ └── valid/
+Deep-Learning-Based-Crop-Disease-Detection-and-Analysis/ ├── train/ ├── 
+test/ └── valid/
 3. **Run the Project**: With the datasets in place, you can run the project in Streamlit:
 ```bash
 streamlit run app.py
