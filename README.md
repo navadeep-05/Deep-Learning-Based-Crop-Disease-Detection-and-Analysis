@@ -73,6 +73,22 @@ pip install -r requirements.txt
 ## 8. Dataset
 The dataset includes labeled images of various crops with different disease classes, curated from open agricultural sources.
 
+### Download the Datasets
+To run this project, download the required datasets from the links below:
+- **Training Set**: [Download from Google Drive](https://drive.google.com/drive/folders/1K1KL95qBDhhEAcRzGo74HPyujsCjROpa?usp=drive_link)
+- **Testing Set**: [Download from Google Drive](https://drive.google.com/drive/folders/1CUGIR4xMXzp4Gbz1eTgyAkwGV-EAXZRJ?usp=drive_link)
+- **Validation Set**: [Download from Google Drive](https://drive.google.com/drive/folders/17EBGIJISjas67T8jMPqspItl0m6wT-sP?usp=drive_link)
+
+### Setup Instructions
+1. **Download the Datasets:** Click the links above to access and download the `train`, `test`, and `valid` folders.
+2. **Organize the Folders**: After downloading, structure the dataset folders as follows within the repository:
+   Deep-Learning-Based-Crop-Disease-Detection-and-Analysis/ ├── train/ ├── 
+   test/ └── valid/
+3. **Run the Project**: With the datasets in place, you can run the project in Streamlit:
+```bash
+streamlit run app.py
+ ```
+
 ## 9. Model Architecture
 A Convolutional Neural Network (CNN) architecture was implemented in TensorFlow. The network consists of multiple convolutional layers, pooling layers, and dense layers to achieve high accuracy in disease detection.
 
