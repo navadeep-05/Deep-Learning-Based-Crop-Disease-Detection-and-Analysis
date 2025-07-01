@@ -2,3 +2,5 @@ streamlit==1.39.0   # or latest compatible version
 tensorflow==2.17.0  # or another version you tested with
 numpy
 pillow
+opencv_python_headless
+keras
