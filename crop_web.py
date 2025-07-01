@@ -45,7 +45,7 @@ if app_mode == "Home":
 elif app_mode == "About":
     st.header("About")
     st.markdown("""
-                #### About Dataset
+                ### About Dataset
                 This dataset is recreated using offline augmentation from the original dataset.The original dataset can be found on this github repo.
                 This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes.The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure.
                 A new directory containing 33 test images is created later for prediction purpose.
@@ -55,7 +55,7 @@ elif app_mode == "About":
                 * This system uses advanced image recognition techniques to classify plant leaves as either healthy or diseased, providing a user-friendly interface where farmers and researchers can upload leaf images for diagnosis. 
                 
                 * The model used here is based on TensorFlow and has been trained to accurately identify a variety of diseases across different types of crops.
-                #### Content
+                ### Content
                 The images have been split into training, validation, and test sets using an 80/20 distribution while maintaining the original directory structure of the dataset:
                 
                 - train (70295 images)
